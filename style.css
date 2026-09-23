@@ -1,0 +1,92 @@
+/* Общие настройки для всей страницы */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #2e3550; /* Темно-синий фон страницы */
+    padding: 30px;
+}
+
+/* Главный контейнер */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* 1. ВЕРХНИЕ КНОПКИ */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #ff4747; /* Красный цвет */
+    color: white;
+    padding: 8px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* 2. БЛОК С КАРТИНКАМИ */
+.images-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.image-card img {
+    width: 420px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* 3. ЦЕНТРАЛЬНЫЙ БЛОК "FlexBox" */
+.center-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.center-title h1 {
+    background-color: black;
+    color: white;
+    padding: 20px 80px;
+    border-radius: 20px;
+    border: 2px solid #ff4747; /* Красная рамка */
+    font-size: 24px;
+}
+
+/* 4. НИЖНИЕ КАРТОЧКИ С ТЕКСТОМ */
+.cards-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Красный внешний блок */
+.outer-card {
+    background-color: #ff4747;
+    width: 46%;
+    padding: 30px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Зеленый внутренний блок */
+.inner-card {
+    background-color: #72f238;
+    color: black;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.4;
+    width: 100%;
+}
